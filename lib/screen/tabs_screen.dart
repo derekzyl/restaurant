@@ -55,11 +55,11 @@ currentIndex: _selectedPageIndex,
         onTap: _selectPage,
         items: [
           BottomNavigationBarItem(icon: Icon(Icons.category),
-          title: Text('categories'),
+          // title: Text('categories'),
             backgroundColor: Theme.of(context).primaryColor
           ),
           BottomNavigationBarItem(icon: Icon(Icons.star),
-              title: Text('favorite'),
+              // title: Text('favorite'),
               backgroundColor: Theme.of(context).primaryColor
           ),
 
